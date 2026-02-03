@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Portfolio Details - MyResume Bootstrap Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- Custom Portfolio Styles -->
+  <link href="assets/css/custom-portfolio.css" rel="stylesheet">
+
+</head>
+
+<body class="portfolio-details-page">
+
+  <header id="header" class="header d-flex flex-column justify-content-center">
+
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i><span>About</span></a></li>
+        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i><span>Resume</span></a></li>
+        <li><a href="#portfolio"><i class="bi bi-images navicon"></i><span>Portfolio</span></a></li>
+        <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i><span>Services</span></a></li>
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i><span>Contact</span></a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="container-fluid">
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Wines and Spirit Management System</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Portfolio Details Section -->
+    <!-- Portfolio Hero Section -->
+    <section id="portfolio-hero" class="portfolio-hero-section">
+      <!-- Hero Background Image -->
+      <img src="assets/img/portfolio/winesnspirit.png" alt="Wines & Spirit Management System" class="hero-bg-img">
+
+      <!-- Gradient Overlay -->
+      <div class="hero-gradient-overlay"></div>
+
+      <!-- Hero Content -->
+      <div class="hero-content-wrapper">
+        <h1 class="hero-title" data-aos="fade-up">Expult Tech: Wines and Spirit Management System</h1>
+
+        <!-- Toggle Button for Carousel -->
+        <button class="explore-btn" id="exploreBtn" data-aos="fade-up" data-aos-delay="200">
+          <i class="bi bi-grid-3x3-gap-fill"></i>
+          <span>Explore Our Other Solutions</span>
+        </button>
+      </div>
+
+      <!-- Slide-up Carousel Panel -->
+      <div class="carousel-panel" id="carouselPanel">
+        <div class="carousel-panel-header">
+          <span>Our Solutions</span>
+          <button class="close-panel-btn" id="closePanelBtn">
+            <i class="bi bi-x-lg"></i>
+          </button>
+        </div>
+        <div class="projects-carousel swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 3000,
+                "disableOnInteraction": false
+              },
+              "slidesPerView": 4,
+              "spaceBetween": 20,
+              "centeredSlides": false,
+              "breakpoints": {
+                "320": { "slidesPerView": 2, "spaceBetween": 10 },
+                "576": { "slidesPerView": 3, "spaceBetween": 15 },
+                "768": { "slidesPerView": 4, "spaceBetween": 20 },
+                "1200": { "slidesPerView": 4, "spaceBetween": 25 }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <a href="portfolio-fleet.html" class="project-card">
+                <div class="project-card-img">
+                  <img src="assets/img/portfolio/fleetsys.png" alt="Fleet Management">
+                </div>
+                <div class="project-card-info">
+                  <h6>Fleet Management</h6>
+                </div>
+              </a>
+            </div>
+
+            <div class="swiper-slide">
+              <a href="portfolio-cereals.html" class="project-card">
+                <div class="project-card-img">
+                  <img src="assets/img/portfolio/cerealshop.png" alt="Cereal Shop">
+                </div>
+                <div class="project-card-info">
+                  <h6>Cereal Shop</h6>
+                </div>
+              </a>
+            </div>
+
+            <div class="swiper-slide">
+              <a href="portfolio-salon.html" class="project-card">
+                <div class="project-card-img">
+                  <img src="assets/img/portfolio/salonsys.png" alt="Salon System">
+                </div>
+                <div class="project-card-info">
+                  <h6>Salon System</h6>
+                </div>
+              </a>
+            </div>
+
+            <div class="swiper-slide">
+              <a href="portfolio-school.html" class="project-card">
+                <div class="project-card-img">
+                  <img src="assets/img/portfolio/schoolsys.png" alt="School System">
+                </div>
+                <div class="project-card-info">
+                  <h6>School System</h6>
+                </div>
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
+
+      <div class="row justify-content-between gy-4 mt-4">
+
+        <div class="col-lg-8" data-aos="fade-up">
+          <div class="portfolio-description">
+            <div class="section-title" style="text-align: center; padding-bottom: 30px;">
+              <h2 style="margin-bottom: 10px; padding-bottom: 10px;">Key Services & Benefits</h2>
+            </div>
+
+            <div class="row gy-4">
+              <!-- 1. Smart Inventory (Moved from pos 2) -->
+              <div class="col-md-6">
+                <div class="card service-card h-100 border-0">
+                  <div class="card-body text-center p-4">
+                    <div class="service-icon mb-3">
+                      <i class="bi bi-box-seam"></i>
+                    </div>
+                    <h4 class="card-title fw-bold mb-3">Smart Inventory</h4>
+                    <p class="card-text text-muted">
+                      Tracks stock levels in real time by brand, bottle size, and category (wines, spirits, beer).
+                      Automatically alerts when stock is low, helping prevent losses and out-of-stock situations.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 2. Pricing Control (Moved from pos 3) -->
+              <div class="col-md-6">
+                <div class="card service-card h-100 border-0">
+                  <div class="card-body text-center p-4">
+                    <div class="service-icon mb-3">
+                      <i class="bi bi-tags-fill"></i>
+                    </div>
+                    <h4 class="card-title fw-bold mb-3">Pricing Control</h4>
+                    <p class="card-text text-muted">
+                      Allows flexible pricing, discounts, and offers per product or category. Ideal for happy hours,
+                      promotions, and seasonal pricing without manual calculations.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 3. AI-Enabled Smart POS (New) -->
+              <div class="col-md-6">
+                <div class="card service-card h-100 border-0">
+                  <div class="card-body text-center p-4">
+                    <div class="service-icon mb-3">
+                      <i class="bi bi-cpu"></i>
+                    </div>
+                    <h4 class="card-title fw-bold mb-3">AI-Enabled Smart POS</h4>
+                    <p class="card-text text-muted">
+                      An intelligent point-of-sale system that uses AI to learn from sales patterns and stock
+                      movement. The system automatically identifies fast-moving products, slow-moving stock, and
+                      unusual sales activity to help reduce losses and improve profitability. Smart recommendations
+                      support better pricing, restocking, and promotional decisions without manual analysis.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 4. AI Data Analysis (New) -->
+              <div class="col-md-6">
+                <div class="card service-card h-100 border-0">
+                  <div class="card-body text-center p-4">
+                    <div class="service-icon mb-3">
+                      <i class="bi bi-graph-up-arrow"></i>
+                    </div>
+                    <h4 class="card-title fw-bold mb-3">AI Data Analysis & Management Insights</h4>
+                    <p class="card-text text-muted">
+                      A built-in data analysis tool that converts raw sales data into clear, actionable insights for
+                      management. The system provides automated summaries on revenue trends, peak sales hours,
+                      best-selling brands, and stock performance, presented in easy-to-read dashboards.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 5. Business Insights (Moved from pos 4) -->
+              <div class="col-md-6">
+                <div class="card service-card h-100 border-0">
+                  <div class="card-body text-center p-4">
+                    <div class="service-icon mb-3">
+                      <i class="bi bi-bar-chart-line-fill"></i>
+                    </div>
+                    <h4 class="card-title fw-bold mb-3">Business Insights</h4>
+                    <p class="card-text text-muted">
+                      Generates daily, weekly, and monthly sales reports showing top-selling brands, revenue trends,
+                      and staff performance. Supports better decision-making and profit tracking.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 6. Staff Management (Moved from pos 5) -->
+              <div class="col-md-6">
+                <div class="card service-card h-100 border-0">
+                  <div class="card-body text-center p-4">
+                    <div class="service-icon mb-3">
+                      <i class="bi bi-people-fill"></i>
+                    </div>
+                    <h4 class="card-title fw-bold mb-3">Staff Management</h4>
+                    <p class="card-text text-muted">
+                      Controls staff access levels and tracks transactions per cashier. Improves accountability and
+                      reduces shrinkage and unauthorized discounts.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Moved 'Why Businesses Choose' to sidebar -->
+
+          </div>
+        </div>
+
+        <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
+          <div class="portfolio-info">
+            <h3>Project Information</h3>
+            <ul>
+              <li><strong>Category</strong> POS System</li>
+              <li><strong>Client</strong> Retailers</li>
+              <li><strong>Project date</strong> Ongoing</li>
+              <li><strong>Project URL</strong> <a href="#">Available on Request</a></li>
+            </ul>
+          </div>
+
+          <div class="portfolio-info mt-4">
+            <h3>Why Businesses Choose This System</h3>
+            <p>
+              Built specifically for wines and spirits businesses, the system is simple to use, fast to deploy,
+              and tailored for Kenyan retail environments. It helps retailers sell faster, manage stock better,
+              and gain clear visibility into business performance.
+            </p>
+          </div>
+
+          <div class="card mt-4 border-0 shadow-sm text-center">
+            <div class="card-body p-4">
+              <i class="bi bi-people-fill text-primary" style="font-size: 2rem;"></i>
+              <h2 class="fw-bold mt-2 display-4">26+</h2>
+              <p class="text-muted mb-0 fw-bold">Active Users</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      </div>
+
+    </section><!-- /Portfolio Details Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+    <div class="container">
+      <h3 class="sitename">Caleb Muthee</h3>
+      <p>The new relationships we make introduce us to new world experiences and tech is my world</p>
+      <div class="social-links d-flex justify-content-center">
+        <a href=""><i class="bi bi-twitter-x"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-skype"></i></a>
+        <a href=""><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <span>Copyright</span> <strong class="px-1 sitename">Alex Smith</strong> <span>All Rights Reserved</span>
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you've purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distribuited by <a
+            href="https://themewagon.com">ThemeWagon</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <!-- Carousel Panel Toggle Script -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const exploreBtn = document.getElementById('exploreBtn');
+      const carouselPanel = document.getElementById('carouselPanel');
+      const closePanelBtn = document.getElementById('closePanelBtn');
+
+      if (exploreBtn && carouselPanel && closePanelBtn) {
+        // Open panel
+        exploreBtn.addEventListener('click', function () {
+          carouselPanel.classList.add('active');
+          document.body.style.overflow = 'hidden';
+        });
+
+        // Close panel
+        closePanelBtn.addEventListener('click', function () {
+          carouselPanel.classList.remove('active');
+          document.body.style.overflow = '';
+        });
+
+        // Close on clicking outside the carousel content
+        carouselPanel.addEventListener('click', function (e) {
+          if (e.target === carouselPanel) {
+            carouselPanel.classList.remove('active');
+            document.body.style.overflow = '';
+          }
+        });
+
+        // Close on Escape key
+        document.addEventListener('keydown', function (e) {
+          if (e.key === 'Escape' && carouselPanel.classList.contains('active')) {
+            carouselPanel.classList.remove('active');
+            document.body.style.overflow = '';
+          }
+        });
+      }
+    });
+  </script>
+
+</body>
+
+</html>
